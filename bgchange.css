@@ -1,0 +1,60 @@
+.randomSec{
+    margin-top: 40px;
+    width:100%;
+    height: 70vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background:url('img/2.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: all 2s ease-out;
+}
+.randomCon{
+    background-color:gray;
+    padding: 30px;
+    text-align: center;
+    mix-blend-mode: screen;
+}
+.randomTextOne{
+    font-size: 70px;
+}
+.randomTextTwo{
+    font-size: 60px;
+}
+.randomTextThree{
+    font-size: 40px;
+    color: red;
+}
+
+@media(max-width:856px){
+
+    .randomCon{
+        padding: 20px;
+    }
+    .randomTextOne{
+        font-size: 50px;
+    }
+    .randomTextTwo{
+        font-size: 50px;
+    }
+    .randomTextThree{
+        font-size: 30px;
+    }
+}
+@media(max-width: 620px){
+    .randomCon{
+        padding: 10px;
+    }
+    .randomTextOne{
+        font-size: 40px;
+    }
+    .randomTextTwo{
+        font-size:40px;
+    }
+    .randomTextThree{
+        font-size: 30px;
+    }
+}

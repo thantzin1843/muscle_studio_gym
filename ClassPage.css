@@ -1,0 +1,340 @@
+
+body
+{
+    background-color: black;
+    font-family: 'segoe ui';
+    margin:0;
+    padding: 0;
+}
+
+.program
+{
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.program h1
+{
+    text-shadow: 0px 0px 10px gray,0px 0px 20px gray,0px 0px 40px orangered,0px 0px 80px orangered,0px 0px 120px orangered ;
+    font-size: 60px;
+    padding: 10px 20px;
+    display: inline-block;
+    color:white;
+    margin-top: 18px;
+    margin-bottom: 32px;
+
+}
+
+.program .SBS
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.pfont {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btnlink {
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    padding: 2px 60px;
+    text-align: center;
+    display: inline-block;
+    font-size: 28px;
+    transition-duration: 0.4s;
+    border-radius: 15px;
+}
+
+.btnlink:hover
+{
+    background-color: black;
+    border-top:2px solid black;
+    color: red;
+}
+
+
+.program .SBS .pge
+{
+    width: 520px;
+    height: 520px;
+    margin: 12px;
+    position: relative;
+    overflow: visible;
+}
+
+.program .SBS .pge img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.program .SBS .pge .info 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transform-origin: bottom;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 2s ease;
+}
+
+.program .SBS .pge:hover .info
+{
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.h3
+{
+    padding-right: 5px;
+    border-right:5px solid red;
+    font-size: 40px;
+    color: orangered;
+    font-weight:bold;
+}
+
+.program .SBS .pge .info p
+{
+    line-height: 2;
+    color: aliceblue;
+    font-size: 18px;
+    padding: 0 18px;
+}
+.levelcon{
+    text-align: left;
+}
+.level{
+    font-size: 17px;
+    color:gray;
+    text-align:left;
+}
+
+/*crossfit--------------------------------*/
+.crossfitCon{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.crossTop{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: row;
+
+}
+.crossLeft,.crossMid,.crossRight{
+    width:33.33%;
+    height: 100%;
+}
+.crossLeft{
+    background: url('img/cross1.jpg');
+}
+.crossMid{
+    background: url('img/cross2.jpg');
+    transform: rotate(35deg);
+    z-index:-1;
+}
+.crossRight{
+    background: rgb(54,162,42);
+background: linear-gradient(90deg, rgba(54,162,42,0.6) 0%, rgba(9,121,112,0.6) 52%, rgba(0,229,255,0.6) 100%);
+    transform: rotate(5deg);
+    transform-origin:right;
+    padding: 30px;
+    text-align: center;
+}
+.crossHead{
+    font-size:60px;
+    font-weight: 700;
+    color: coral;
+    text-shadow:1px 1px 1px orangered,-1px -1px 1px orangered;
+}
+.crossAbout{
+    color:black;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 30px 0px;
+}
+.bgpro{
+    background-size:cover;
+    height:100vh;
+    background-position: center;
+}
+.bgadj{
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.crossCardCon{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.crossCard{
+    width: 33%;
+    height: 100%;
+    background-color: #ffffff0a;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+    padding: 30px;
+    margin: 10px;
+}
+.fa-dumbbell{
+    margin-bottom: 15px;
+    font-size: 50px;
+    color: red;
+}
+.fa-quote-left,.fa-quote-right{
+    color: red;
+    margin: 3px;
+}
+
+/*----zumba--------*/
+.umba{
+    background:url('images/um.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.zumbaMid{
+    position:relative;
+    background:url('img/zumbabg1.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    filter:grayscale(60%)
+}
+
+/*---------yoga-------------*/
+.yoga{
+    background: url('img/yogabg.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.yogaMid{
+    background:url('img/yogaMid.jpg');
+    background-repeat:no-repeat;
+    filter:grayscale(70%)
+}
+/*--------boxing------------*/
+.boxing{
+    background: url('img/boxingbg.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.boxingMid{
+    background:url('img/boxingMid.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+    filter:grayscale(70%)
+}
+/*--------lifting------------*/
+.lifting{
+    background: url('img/liftingbg.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.liftingMid{
+    background:url('img/liftingMid.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    filter:grayscale(70%)
+}
+/*--------lifting------------*/
+.cardio{
+    background: url('img/cardiobg.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.cardioMid{
+    background:url('img/cardioMid.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    filter:grayscale(70%)
+}
+
+.vdCon{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.ytvd{
+    border:2px solid orangered;
+    margin-top:50px;
+    width: 50%;
+    height: 100%;
+}
+@media(max-width: 964px){
+    /*crossfit--------------------------------*/
+
+.crossTop{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: row;
+}
+.crossMid,.crossRight{
+    width:50%;
+    height: 100%;
+}
+.crossLeft{
+    width:0;
+    background: none;
+}
+.crossMid{
+    transform: rotate(0deg);
+}
+.crossRight{
+    transform: rotate(10deg);
+    padding: 20px;
+}
+.crossHead{
+    font-size:50px;
+    margin: 30px;
+    font-weight: 600;
+}
+
+.crossCardCon{
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}
+.crossCard{
+    margin-top: 20px;
+    width: 75%;
+}
+
+
+.vdCon{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.ytvd{
+    margin-top:50px;
+    width: 70%;
+    height: 100%;
+}
+}
+
+@media(max-width:674px){
+    .crossAbout{
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+}

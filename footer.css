@@ -1,0 +1,81 @@
+
+.footer{
+  width: 100%;
+  background-color: #ffffff0a;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footerLeft, .footerMid, .footerRight{
+  width: 30%;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.heading{
+  font-size: 25px;
+}
+.openTime{
+  font-size: 17px;
+  margin: 10px;
+}
+.quickLink{
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+  color:red;
+}
+.quickLink a:hover{
+  opacity: 0.6;
+}
+.subscriberName, .subscriberEmail{
+  width: 100%;
+  height: 40px;
+  background-color: #ffffff0a;
+  padding: 5px;
+  border:none;
+  outline:none;
+  margin:10px 0px;
+  color:red;
+}
+.subscriBtn{
+  width: 40%;
+  height:30px;
+  background-color: red;
+}
+@media(max-width:756px){
+  .footer{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .footerLeft, .footerMid, .footerRight{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+}
+/*Validation Section*/
+.valid{
+  color: green;
+}
+.invalid{
+  color:red;
+}
+.fa-circle-check,.fa-circle-xmark{
+  font-size: 15px;
+}
+.fa-circle-check{
+  color:green;
+}
+.fa-circle-xmark{
+  color:red;
+}
+
+.addFE{
+  width:50%;
+}

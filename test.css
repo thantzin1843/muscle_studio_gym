@@ -1,0 +1,129 @@
+body{
+    background-color: black;
+    color: rgb(255, 38, 0);
+   
+    
+}
+
+#Header{
+    
+    font-size: 40px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    letter-spacing: 1.8px;
+    word-spacing: 1.4px;
+    color: #FF1509;
+    font-weight: 700;
+    text-decoration: none solid rgb(232, 230, 227);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+    padding-bottom: 9px;
+    text-shadow: 5px 5px 5px black, -1px -1px 5px black;
+    border-left: 1px groove #1C6EA4;
+    border-right: 1px groove #1C6EA4;
+    border-radius: 8px 9px 10px 8px;
+    width: 20%;
+    position: relative;
+    right:-588px;
+    text-align: center;
+    display: block;
+}
+#fixed{
+    
+    margin-left: 2px;
+    border: 2px inset #950202;
+    border-radius: 15px;
+    width: 16%;
+    text-align: center;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    word-spacing: 0.4px;
+    color: #FF180D;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;    
+    text-transform: capitalize;
+   
+}
+
+#para1,#para2,#para3{
+    
+   
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 17px;
+    letter-spacing: 0.4px;
+    word-spacing: 1.6px;
+    color: #FF300C;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: uppercase;
+    border-left: 15px groove rgba(164,56,19,0.78);
+    border-radius: 26px 26px 26px 24px;
+    background-color: rgb(9, 20, 7);
+    padding: 11px;
+    
+   
+}
+
+#img1,#img2,#img3,#img{
+   
+    border-radius: 24px 24px;
+}
+#heading1,#heading2{
+   
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.4px;
+    word-spacing: 2px;
+    color: #FF2D0F;
+    font-weight: 650;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    margin-left: 40px;
+    border-left: 14px inset #F44114;
+    border-radius: 16px;
+    width: 53%;
+    background-color: rgb(7, 13, 6);
+    padding: 12px;
+}
+#heading{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.4px;
+    word-spacing: 2px;
+    color: #FF2D0F;
+    font-weight: 650;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    margin-left: 40px;
+    border-left: 14px inset #F44114;
+    border-radius: 16px;
+    width: 23%;
+    background-color: rgb(7, 13, 6);
+    padding: 12px;
+}
+#heading3{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.4px;
+    word-spacing: 2px;
+    color: #FF2D0F;
+    font-weight: 650;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    margin-left: 40px;
+    border-left: 14px inset #F44114;
+    border-radius: 16px;
+    width: 43%;
+    background-color: rgb(7, 13, 6);
+    padding: 12px;
+}

@@ -1,0 +1,152 @@
+.rounded-lg {
+  border-radius: 1rem !important;
+}
+
+.text-small {
+  font-size: 0.9rem !important;
+}
+
+.custom-separator {
+  width: 5rem;
+  height: 6px;
+  border-radius: 1rem;
+  background-color: orangered;
+}
+
+.text-uppercase {
+  letter-spacing: 0.2em;
+}
+
+body {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+}
+
+.list-unstyled {
+  background-color: transparent;
+}
+
+.membershipCard {
+  background-color: transparent;
+  border: inset;
+  border-color: orangered;
+}
+
+.Formcontainer{
+  background:url('.././img/appformbg.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.btn {
+  background-color: transparent;
+  border: solid white;
+  color: white;
+  border-color: white;
+  border-width: 1.5px;
+}
+
+.btn:hover {
+  background-color: orangered;
+  color: white;
+}
+
+.tableCenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  #height-inches {
+    display: none;
+  }
+  #memberformtable{
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #height-in {
+    display: none;
+  }
+}
+
+.form-check input:checked ~ .form-check-input {
+  background-color: red;
+}
+
+/* check box */
+
+.chk-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.chk-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.chk-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.chk-container input:checked ~ .checkmark {
+  background-color: orangered;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.chk-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.chk-container .checkmark:after {
+ 	top: 6px;
+	left: 6px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+/*validation section*/
+.valid{
+  color:#22eaaa;
+  font-size:17px;
+}
+.invalid{
+  color:red;
+  font-size: 17px;
+}

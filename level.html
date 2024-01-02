@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level Test</title>
+    <link href="level.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link href = "navbar.css" rel="stylesheet"/>
+</head>
+<body>
+    <!-- Start Navbar HTML -->
+<div class="navCon">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title">
+        <span class="startlogo">M</span>uscle <span class="startlogo">S</span>tudio
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+    
+    <div class="nav-links">
+      <a href="index.html" >Home</a>
+      <a href="ClassPage.html">Classes</a>
+      <a href="services.html">Services</a>
+      <a href="member.html">Member</a>
+      <a href="event.html">Events</a>
+    </div>
+  </div>
+  
+  <!-- End Navbar HTML------------------------------------------------------------- -->
+    <div class="levelCon">
+        <div class="levelLeft">
+            <div class="levelH">Find Your Fitness Level</div>
+            <div class="headingUL"></div>
+            <div class="levelCheck">
+                <div class="levelName">Your Name</div>
+                <input type="text" class="inputTime" id='name'/>
+            </div>
+            <div class="levelCheck">
+                <div class="levelName">Body Weight Squats in 1 minute</div>
+                <input type="number" class="inputTime" id='squat'/>
+            </div>
+            <div class="levelCheck">
+                <div class="levelName">Plank Hold Time(s)</div>
+                <input type="number" class="inputTime" id="plank"/>
+            </div>
+            <div class="levelCheck">
+                <div class="levelName">Push up in 1 minute</div>
+                <input type="number" class="inputTime" id="push"/>
+            </div>
+            <div class="levelCheck">
+                <div class="levelName">Burpees in 1 minute</div>
+                <input type="number" class="inputTime" id="burpee"/>
+            </div>
+            <input type="submit" value = 'Find' class="find" id="findBtn">
+        </div>
+        <div class="levelRight">
+            <div class='levelH'>Result</div>
+            <div class="headingUL"></div>
+            <table class="levelform">
+                <tr>
+                    <td class="align-right">Name</td>
+                    <td>-</td>
+                    <td id="nameResult"></td>
+                </tr>
+                <tr>
+                    <td class="align-right">Squats rating</td>
+                    <td>-</td>
+                    <td id="squatResult"></td>
+                </tr>
+                <tr>
+                    <td class="align-right">Plank rating</td>
+                    <td>-</td>
+                    <td id="plankResult"></td>
+                </tr>
+                <tr>
+                    <td class="align-right">Push up rating</td>
+                    <td>-</td>
+                    <td id="pushResult"></td>
+                </tr>
+                <tr>
+                    <td class="align-right">Burpees rating</td>
+                    <td>-</td>
+                    <td id="burpeeResult"></td>
+                </tr>
+                <tr>
+                    <td class="align-right">Overall Fitness rating</td>
+                    <td>-</td>
+                    <td id="allResult"></td>
+                </tr>
+            </table>
+
+            <div class="externalBar">
+                <div class="internalBar"></div>
+            </div>
+
+            <div style="text-align:left;border-left:5px solid orangered;margin-top:10px;">
+                <div class="last">Beginner level  &nbsp;0 to 4</div>
+                <div class="last">Intermediate level &nbsp; 4 to 7</div>
+                <div class="last">Advance level  &nbsp;7 to 10</div>
+            </div>
+
+        </div>
+    </div>
+
+        
+    <script src="level.js"></script>
+
+</body>
+</html>

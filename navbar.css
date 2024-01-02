@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'segoe ui';
+}
+
+.navCon {
+  height: 50px;
+  width: 100%;
+  background-color: orangered;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.navCon > .nav-header {
+  display: inline;
+}
+
+.navCon > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px 1px black;
+  margin: 0px 20px;
+  padding: 3px 10px;
+  font-weight: bold;
+}
+.startlogo{
+  border: 2px solid black;
+  padding: 2px 4px;
+  background-color: black;
+}
+.navCon > .nav-btn {
+  display: none;
+}
+
+.navCon > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.navCon > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+
+.navCon > .nav-links > a:hover {
+  background-color: black;
+}
+
+.navCon > #nav-check {
+  display: none;
+}
+@media (max-width:600px) {
+  .navCon > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .navCon > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .navCon > .nav-btn > label:hover,.navCon  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .navCon > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .navCon > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: black;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .navCon > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .navCon > .nav-links > a:hover {
+    background-color: orangered;
+  }
+  
+  .navCon > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .navCon > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}

@@ -1,0 +1,255 @@
+body{
+    margin:0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding:0;
+    background: #0D0C0C;
+}
+.serviceTopCon{
+    margin:30px 0px 0px 0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.AdEach{
+    font-size: 30px;
+    color:lightgray;;
+}
+#service_H{
+    text-align:center;
+    font-size:60px;
+    font-weight: 600;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color:white;
+    text-shadow:0px 0px 10px orangered,
+    0px 0px 20px orangered,0px 0px 40px orangered,0px 0px 80px orangered,0px 0px 120px orangered;
+}
+
+#title{
+    text-align:center;
+    font-family: 'Bad Script',cursive;
+    font-size: 50px;
+    letter-spacing: 1.4px;
+    word-spacing: 1.4px;
+    color: #494242;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+.exts{
+   max-width:1124px;
+    height:100%;
+    margin:0 auto;
+}
+.serviceCard{
+
+    max-width:1224px;
+    max-height:70vh;
+    display:flex;
+    flex-direction: row;
+    margin:30px 0px;
+}
+.serviceLeft,.serviceRight{
+    width: 50%;
+    max-height: 100%;
+}
+
+.serviceImg{
+    width:100%;
+    height:100%;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+.serviceRight{
+    background-color: #ff45000a;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.offerH{
+    text-align:center;
+    font-size: 35px;
+    color: orangered;
+    font-weight: bold;
+}
+.offerH:hover{
+    color:white;
+    text-shadow:0px 0px 2px orangered,0px 0px 4px orangered,0px 0px 6px orangered,0px 0px 8px orangered,0px 0px 10px orangered;
+}
+.offer{
+    font-size: 35px;
+    line-height: 65px;
+    color: white;
+}
+.offer:hover{
+    color:orangered;
+}
+.join{
+    border:none;
+    outline:none;
+    padding:10px 30px;
+}
+.join:hover{
+    box-shadow:0px 0px 5px white,0px 0px 10px white,0px 0px 20px white,0px 0px 40px white,0px 0px 80px white;
+}
+.fa-check{
+    color:orangered;
+    margin-right: 20px;
+}
+
+.serviceFootCon{
+    width:100%;
+    height:80vh;
+    background-color: #ff45000a;
+
+}
+.secondSFC{
+    margin:0 auto;
+    max-width:1124px;
+    height:100%;
+    display:flex;
+    flex-direction: row;
+}
+.serviceFootM{
+    width:33%;
+    height:100%;
+}
+.serviceImgCon{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width:100%;
+    height:60%;
+}
+.serviceAb{
+    padding: 20px 0px;
+    text-align:center;
+    font-size:25px;
+    font-weight:bold;
+    color:orangered;
+    border-left:5px solid orangered;
+}
+.serviceFootImg{
+    width:60%;
+}
+.lastSer{
+    background: url('images/locker.jpg');
+    background-size: cover;
+    height:100vh;
+    background-position: center;
+    padding-top: 50px;
+}
+.lastSer1{
+    font-size:50px;
+    font-weight: 700;
+    color:white;
+    background-color: #000000a3;
+    text-align: center;
+}
+.lastSer2{
+    background-color: black;
+    color:white;
+    font-size:40px;
+    font-weight: 400;
+    text-align: center;
+}
+.hs{
+    font-size:35px;
+    color:orangered;
+    font-weight: bold;
+    text-align:center;
+}
+.hsdiv{
+    width:30%;
+    height:3px;
+    background-color: white;
+    margin:0 auto;
+    box-shadow:0px 0px 10px white,
+    0px 0px 20px white,0px 0px 40px white,0px 0px 80px white,0px 0px 120px white;
+}
+@media(max-width:1014px){
+    .serviceAb{
+        font-size:17px;
+    }
+}
+
+@media(max-width:764px){
+    .offerH{
+        font-size: 25px;
+    }
+    .offer{
+        font-size: 25px;
+
+    }
+}
+
+@media(max-width:563px){
+    .offer{
+        font-size:16px;
+    }
+    .offerH{
+        font-size:18px;
+    }
+    .serviceFootCon{
+        width:100%;
+        height:auto;
+        background-color: #ff45000a;
+    
+    }
+    .secondSFC{
+        flex-wrap:wrap;
+    }
+    .serviceFootM{
+        width:100%;
+        height:100%;
+    }
+
+}
+.facCon{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    height:70vh;
+    margin-bottom:20px;
+    justify-content: center;
+}
+.facCon2{
+    display:flex;
+    flex-direction: row;
+    width:1124px;
+    height:100%;
+    margin-bottom:20px;
+    justify-content: center;
+}
+.fac1{
+    margin:20px;
+    width:33%;
+    height:100%;
+}
+.facTop{
+    width:100%;
+    height:50%;
+    background-color: red;
+}
+.facBottom{
+    width:100%;
+    height:50%;
+    font-size:25px;
+    color:orangered;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.facImg{
+    width:100%;
+    height:100%;
+    border-radius: 25px;
+}
