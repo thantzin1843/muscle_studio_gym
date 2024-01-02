@@ -104,6 +104,12 @@ body{
     color: orangered;
     font-size: 30px;
 }
+.footHead{
+    font-weight: bolder;
+    text-align: left;
+    color: orangered;
+    font-size: 30px;
+}
 table{
     border-collapse: collapse;
     width: 100%;
